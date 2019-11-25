@@ -10,7 +10,7 @@ for r, d, f in os.walk(path):
 
 for f in files:
 	pic = numpy.asarray(Image.open(f))
-	file= open("Images(AsArray).txt","w+")
+	file = open("Images(AsArray).txt","w+")
 	print("writing path")
 	file.write(f)
 	print("writing array")
